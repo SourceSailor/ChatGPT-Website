@@ -8,7 +8,7 @@ const Header = () => {
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Let's Build Something Amazing with Chat-GPT3 OpoenAI
+          Let's Build Something Amazing with Chat-GPT3 OpenAI
         </h1>
         <p>
           Yet bed any for travelling assistance indulgence unpleasing. Not
@@ -17,16 +17,21 @@ const Header = () => {
           asked of.
         </p>
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address" name="" id="" />
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            name="email"
+            id="header-email"
+          />
           <button type="button">Get Started!</button>
         </div>
         <div className="gpt3__header-content__people">
           <img src={people} alt="people" />
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
-        <div className="gpt3__header-image">
+        {/* <div className="gpt3__header-image">
           <img src={aiHead} alt="AI generated head" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
