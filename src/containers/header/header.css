@@ -59,7 +59,7 @@
   color: #fff;
   cursor: pointer;
   padding: 0 1rem;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   background: #ff4820;
   border: var(--color-footer);
@@ -146,7 +146,7 @@
   }
   .gpt3__header-content__input input,
   .gpt3__header-content__input button {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
   }
 }
