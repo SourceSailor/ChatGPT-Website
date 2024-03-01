@@ -43,7 +43,7 @@
   flex: 2;
   width: 100%;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 0.7rem 2rem;
   outline: none;
   font-size: 20px;
   border: var(--color-footer);
@@ -59,8 +59,7 @@
   color: #fff;
   cursor: pointer;
   padding: 0 1rem;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 15px;
   background: #ff4820;
   border: var(--color-footer);
   font-family: var(--font-family);
