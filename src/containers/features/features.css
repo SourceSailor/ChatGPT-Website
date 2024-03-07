@@ -5,6 +5,7 @@
   justify-content: space-between;
   font-family: var(--font-family);
   border: 1px;
+  padding: 5rem 10rem 0 10rem;
 }
 .gpt3__features-heading h1 {
   font-size: 34px;
@@ -24,8 +25,6 @@
   cursor: pointer;
 }
 .gpt3__features-container {
-  width: 590px;
-  height: 428px;
   top: 1943px;
   left: 704px;
   border: 1px;
@@ -55,6 +54,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .gpt3__features {
+    padding: 4rem 6rem;
+  }
   .gpt3__features-heading h1 {
     font-size: 28px;
     margin-bottom: 2rem;
@@ -70,6 +72,7 @@
 @media screen and (max-width: 950px) {
   .gpt3__features {
     flex-direction: column;
+    padding-top: 2rem;
   }
 
   .gpt3__features-heading h1 {
@@ -94,5 +97,10 @@
 
   .gpt3__features-container .gpt3__features-container__feature-title p {
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .gpt3__features {
+    padding: 2rem 4rem;
   }
 }
