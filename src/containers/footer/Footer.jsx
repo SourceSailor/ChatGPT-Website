@@ -9,9 +9,7 @@ const Footer = () => {
         <h1 className="gradient__text">
           Do you want to step in to the future before others
         </h1>
-      </div>
-      <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
+        <button>Request Early Access</button>
       </div>
 
       <div className="gpt3__footer-links">
@@ -45,6 +43,9 @@ const Footer = () => {
           <p>info@payme.net</p>
         </div>
       </div>
+      <p className="gpt3__footer-copyright">
+        © 2021 GPT-3. All rights reserved.
+      </p>
     </div>
   );
 };
