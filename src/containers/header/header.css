@@ -63,8 +63,7 @@
   background: #ff4820;
   border: var(--color-footer);
   font-family: var(--font-family);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .gpt3__header-content__input input:placeholder-shown {
@@ -143,24 +142,34 @@
   .gpt3__header-content__people p {
     margin: 0;
   }
+  .gpt3__header-content__input input:placeholder-shown {
+    font-size: 14px;
+  }
   .gpt3__header-content__input input,
   .gpt3__header-content__input button {
     font-size: 14px;
     line-height: 20px;
+    padding: 0.5rem;
   }
 }
 
 @media screen and (max-width: 490px) {
   .gpt3__header h1 {
     font-size: 36px;
+    line-height: 45px;
   }
   .gpt3__header p {
     font-size: 14px;
     line-height: 24px;
   }
+  .gpt3__header-content__input input:placeholder-shown {
+    font-size: 14px;
+  }
   .gpt3__header-content__input input,
   .gpt3__header-content__input button {
     font-size: 14px;
+    font-weight: 400;
     line-height: 20px;
+    padding: 0.5rem;
   }
 }

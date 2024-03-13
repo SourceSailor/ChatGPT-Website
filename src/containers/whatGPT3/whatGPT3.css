@@ -4,7 +4,7 @@
   flex: 1;
   padding: 3rem;
   flex-direction: column;
-  background: radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%);
+  background: radial-gradient(circle at 15% 55%, #0754a7 0%, #040c18 100%);
   font-family: var(--font-family);
 }
 .gpt3__whatgpt3-feature {
@@ -106,5 +106,19 @@
   }
   .gpt3__features-container__feature-text p {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gpt3__whatgpt3 {
+    padding: 1rem;
+  }
+  .gpt3__features-component.gpt3__features-container__feature-title p {
+    width: 100%;
+    margin-left: auto;
+  }
+  .gpt3__whatgpt3-heading h1 {
+    font-size: 25px;
+    line-height: 30px;
   }
 }
